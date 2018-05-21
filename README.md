@@ -30,3 +30,17 @@
 **cat** -> Reads a fils(s) and outputs to Terminal
 - `cat [file name]` -- Will display file contents
 - `cat [file name] [file name] ....` -- will display file contents of all files selected in order
+
+#Git Commands
+**git init** -> This will add a local git repository to a directory
+**git status** -> This will show files that are untracked or tracked for next commit
+**git add** -> This will add files to staging for next commit
+- `git add [file name]` - Will add individual file to staging
+- `git add -A` - Will add all files to staging
+- `git add .` - Same as above
+**git commit** -> Takes staged files and creates save point / commit number
+- `git commit -m "enter in MEANINGFUL commit message"` 
+** git log** -> Shows full log of all commits to master branch
+**git checkout** -> Creates a new branch 
+- `git checkout - b [branch name]` -- Creates a new branch and switches to that branch
+- `git checkout [branch name]` -- Switches to that branch
