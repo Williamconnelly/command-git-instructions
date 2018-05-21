@@ -1,4 +1,4 @@
-#Navigation Terminal
+# Navigation Terminal
 **cd** -> Change directory
 - cd ~ -> change directory to Home
 **ls** -> Display what is in current directory with short list
@@ -6,7 +6,7 @@
 **pwd** -> Print working directory
 **open** -> Command will open a file in default program or directory in finder
 
-#File Manipulation
+# File Manipulation
 **man** -> Pulls up manual for commands - q to exit
 - `man [command here]` -- will display information about the command
 **|** -> Pipe will execute command on left first then execute command on right
@@ -31,7 +31,7 @@
 - `cat [file name]` -- Will display file contents
 - `cat [file name] [file name] ....` -- will display file contents of all files selected in order
 
-#Git Commands
+# Git Commands
 **git init** -> This will add a local git repository to a directory
 **git status** -> This will show files that are untracked or tracked for next commit
 **git add** -> This will add files to staging for next commit
@@ -40,7 +40,7 @@
 - `git add .` - Same as above
 **git commit** -> Takes staged files and creates save point / commit number
 - `git commit -m "enter in MEANINGFUL commit message"` 
-** git log** -> Shows full log of all commits to master branch
+**git log** -> Shows full log of all commits to master branch
 **git checkout** -> Creates a new branch 
 - `git checkout - b [branch name]` -- Creates a new branch and switches to that branch
 - `git checkout [branch name]` -- Switches to that branch
